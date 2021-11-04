@@ -1,2 +1,2 @@
 # meso_coin
-ERC-20 Token Standard Project
+EIC-20 Token Standard Project
