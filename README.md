@@ -32,3 +32,11 @@ Connect to Geth console using IPC
 ```
 geth attach /Users/<root_user>/Library/Ethereum/geth.ipc
 ```
+
+# Web3 console commands
+
+Get Chain Id
+
+```javascript
+web3.eth.chainId()
+```
