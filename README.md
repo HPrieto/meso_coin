@@ -105,11 +105,11 @@ geth attach /Users/<root_user>/Library/Ethereum/goerli/geth.ipc
 ### Clear chaindata
 
 ```
-rm -rf /Users/<root_user>/Library/ethereum/ropsten/geth/chaindata
+rm -rf /Users/<root_user>/Library/ethereum/<network_name>/geth/chaindata
 ```
 
 ```
-rm -rf /Users/<root_user>/Library/ethereum/ropsten/geth/lightchaindata
+rm -rf /Users/<root_user>/Library/ethereum/<network_name>/geth/lightchaindata
 ```
 
 # Web3 console commands
