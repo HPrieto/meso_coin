@@ -104,11 +104,11 @@ geth attach /Users/<root_user>/Library/Ethereum/goerli/geth.ipc
 
 ### Clear chaindata
 
-```
+```properties
 rm -rf /Users/<root_user>/Library/ethereum/<network_name>/geth/chaindata
 ```
 
-```
+```properties
 rm -rf /Users/<root_user>/Library/ethereum/<network_name>/geth/lightchaindata
 ```
 
