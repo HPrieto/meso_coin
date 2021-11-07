@@ -1,4 +1,15 @@
 module.exports = {
+  networks: {
+    "live": {
+      network_id: 1,
+      host: "127.0.0.1",
+      port: 8545   // Different than the default below
+    }
+  },
+  rpc: {
+    host: "127.0.0.1",
+    port: 8545
+  }
   // Uncommenting the defaults below
   // provides for an easier quick-start with Ganache.
   // You can also follow this format for other networks;
@@ -38,15 +49,4 @@ module.exports = {
     //   }
     // }
   // }
-  networks: {
-    "live": {
-      network_id: "*",
-      host: "127.0.0.1",
-      port: 8546   // Different than the default below
-    }
-  },
-  rpc: {
-    host: "127.0.0.1",
-    port: 8545
-  }
 };
