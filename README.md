@@ -3,7 +3,7 @@ EIC-20 Token Standard Project
 
 # Deploy to Live Network
 
-Initialize Clef
+## Initialize Clef
 
 ```
 clef init
