@@ -3,7 +3,7 @@ EIC-20 Token Standard Project
 
 # Deploy to Live Network
 
-## truffle.config.js
+### truffle.config.js
 
 ```javascript
 module.exports {
@@ -28,7 +28,7 @@ module.exports {
 }
 ```
 
-## Deploy Smart Contract: mainnet
+### Deploy Smart Contract: mainnet
 
 ```
 truffle deploy --network live
@@ -38,37 +38,37 @@ truffle deploy --network live
 truffle deploy --network development
 ```
 
-## Initialize Clef
+### Initialize Clef
 
 ```
 clef init
 ```
 
-## Create Account
+### Create Account
 
 ```
 clef newaccount
 ```
 
-## Start Clef: MainNet
+### Start Clef: MainNet
 
 ```
 clef --keystore /Users/<root_user>/Library/Ethereum/keystore --chainid 1
 ```
 
-## Start Clef: Ropsten
+### Start Clef: Ropsten
 
 ```
 clef --keystore /Users/<root_user>/Library/Ethereum/keystore --chainid 3
 ```
 
-## Start Geth: Live Network
+### Start Geth: Live Network
 
 ```
 geth --mainnet --syncmode "light" --http --signer=/Users/<root_user>/Library/Signer/clef.ipc --networkid 1
 ```
 
-## Start Geth: Test Network
+### Start Geth: Test Network
 
 ```
 geth --ropsten --syncmode "light" --http --signer=/Users/<root_user>/Library/Signer/clef.ipc --networkid 3
@@ -82,13 +82,13 @@ geth --rinkeby --syncmode "light" --http --signer=/Users/<root_user>/Library/Sig
 geth --goerli --syncmode "light" --http --signer=/Users/<root_user>/Library/Signer/clef.ipc --networkid 3
 ```
 
-## Connect to Live Network Geth console using IPC
+### Connect to Live Network Geth console using IPC
 
 ```
 geth attach /Users/<root_user>/Library/Ethereum/geth.ipc
 ```
 
-## Connect to Test Network Geth console using IPC
+### Connect to Test Network Geth console using IPC
 
 ```
 geth attach /Users/<root_user>/Library/Ethereum/ropsten/geth.ipc
