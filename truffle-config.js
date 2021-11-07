@@ -4,6 +4,11 @@ module.exports = {
       network_id: 1,
       host: "127.0.0.1",
       port: 8545   // Different than the default below
+    },
+    "development": {
+      network_id: 3,
+      host: "127.0.0.1",
+      port: 8545
     }
   },
   rpc: {
