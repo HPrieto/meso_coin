@@ -9,25 +9,25 @@ Initialize Clef
 clef init
 ```
 
-Create Account
+## Create Account
 
 ```
 clef newaccount
 ```
 
-Start Clef
+## Start Clef
 
 ```
 clef --keystore /Users/<root_user>/Library/Ethereum/keystore --chainid 1
 ```
 
-Start Geth: Live Network
+## Start Geth: Live Network
 
 ```
 geth --mainnet --syncmode "light" --http --signer=/Users/<root_user>/Library/Signer/clef.ipc --networkid 1
 ```
 
-Start Geth: Test Network
+## Start Geth: Test Network
 
 ```
 geth --ropsten --syncmode "light" --http --signer=/Users/<root_user>/Library/Signer/clef.ipc --networkid 2
@@ -41,13 +41,13 @@ geth --rinkeby --syncmode "light" --http --signer=/Users/<root_user>/Library/Sig
 geth --goerli --syncmode "light" --http --signer=/Users/<root_user>/Library/Signer/clef.ipc --networkid 2
 ```
 
-Connect to Live Network Geth console using IPC
+## Connect to Live Network Geth console using IPC
 
 ```
 geth attach /Users/<root_user>/Library/Ethereum/geth.ipc
 ```
 
-Connect to Test Network Geth console using IPC
+## Connect to Test Network Geth console using IPC
 
 ```
 geth attach /Users/<root_user>/Library/Ethereum/ropsten/geth.ipc
