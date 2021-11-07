@@ -30,75 +30,75 @@ module.exports {
 
 ### Deploy Smart Contract: mainnet
 
-```
+```console
 truffle deploy --network live
 ```
 
-```
+```console
 truffle deploy --network development
 ```
 
 ### Initialize Clef
 
-```
+```console
 clef init
 ```
 
 ### Create Account
 
-```
+```console
 clef newaccount
 ```
 
 ### Start Clef: MainNet
 
-```
+```console
 clef --keystore /Users/<root_user>/Library/Ethereum/keystore --chainid 1
 ```
 
 ### Start Clef: Ropsten
 
-```
+```console
 clef --keystore /Users/<root_user>/Library/Ethereum/keystore --chainid 3
 ```
 
 ### Start Geth: Live Network
 
-```
+```console
 geth --mainnet --syncmode "light" --http --signer=/Users/<root_user>/Library/Signer/clef.ipc --networkid 1
 ```
 
 ### Start Geth: Test Network
 
-```
+```console
 geth --ropsten --syncmode "light" --http --signer=/Users/<root_user>/Library/Signer/clef.ipc --networkid 3
 ```
 
-```
+```console
 geth --rinkeby --syncmode "light" --http --signer=/Users/<root_user>/Library/Signer/clef.ipc --networkid 3
 ```
 
-```
+```console
 geth --goerli --syncmode "light" --http --signer=/Users/<root_user>/Library/Signer/clef.ipc --networkid 3
 ```
 
 ### Connect to Live Network Geth console using IPC
 
-```
+```console
 geth attach /Users/<root_user>/Library/Ethereum/geth.ipc
 ```
 
 ### Connect to Test Network Geth console using IPC
 
-```
+```console
 geth attach /Users/<root_user>/Library/Ethereum/ropsten/geth.ipc
 ```
 
-```
+```console
 geth attach /Users/<root_user>/Library/Ethereum/rinkeby/geth.ipc
 ```
 
-```
+```console
 geth attach /Users/<root_user>/Library/Ethereum/goerli/geth.ipc
 ```
 
