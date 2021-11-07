@@ -102,6 +102,16 @@ geth attach /Users/<root_user>/Library/Ethereum/rinkeby/geth.ipc
 geth attach /Users/<root_user>/Library/Ethereum/goerli/geth.ipc
 ```
 
+### Clear chaindata
+
+```
+rm -rf /Users/<root_user>/Library/ethereum/ropsten/geth/chaindata
+```
+
+```
+rm -rf /Users/<root_user>/Library/ethereum/ropsten/geth/lightchaindata
+```
+
 # Web3 console commands
 
 ### Get Chain Id
